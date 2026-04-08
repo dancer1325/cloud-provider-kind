@@ -1,12 +1,19 @@
-## Gateway API support
+# Gateway API support
 
-This provider has support for the [Gateway API](https://gateway-api.sigs.k8s.io/).
-It implements the `Gateway` and `HTTPRoute` functionalities and passes the community conformance tests.
+* ==
+    * implements the `Gateway` and `HTTPRoute` functionalities
+    * passes the community conformance tests
 
-The Gateway API controller is enabled by default using the standard channel,
-but you can select the Gateway API release channel (standard/experimental) or just disable the feature completely
-using the flag `gateway-channel`:
+* Gateway API controller
+    * by default,
+        * enabled
+    * if you want to configure it -> specify `--gateway-channel` CL's flag /
+        * ALLOWED values
+            * standard
+                * default one
+            * experimental
+            * disabled
 
-```sh
-cloud-provider-kind --gateway-channel standard|experimental|disabled
-```
+      ```sh
+      cloud-provider-kind --gateway-channel standard|experimental|disabled
+      ```

@@ -1,5 +1,9 @@
 # Documentation Guide
 
+* goal
+  * how does documentation work?
+
+TODO:
 This documentation site is generated and served using **Docsify**, a lightweight documentation site generator that renders Markdown files on the fly.
 
 ## Serving the Docsify Site

@@ -1,7 +1,7 @@
-- Install 
-
-  - [Installation with go ](user/install/install_go.md)
-  - [Running with docker](user/install/install_docker.md)
+- Install
+  - [-- via -- go ](user/install/install_go.md)
+  - [-- via -- a package manager](user/install/install_go.md)
+  - [-- via -- docker](user/install/install_docker.md)
 - Ingress
   - [Setting up Ingress](user/ingress/ingress.md)
 - Gateway API 
